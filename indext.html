@@ -29,32 +29,33 @@
         <button>More About</button>
     </nav>
   </header>
-  <main>
-    <aside>
+
+  <main id="quiz-container">
+    <aside id="start-container">
         <p>Welcome to The Free Boat License Test. The question related to this Test are official and is common knowledge for a recreation boat captain IT is offer from the NSW <a href="https://www.nsw.gov.au/sites/default/files/2021-10/general-boat-driving-licence-knowledge-test-questions.pdf">Government</a> </p>
         <p>Press the Start button to begin the Quiz</p>
         <button onclick="startQuiz()">Start</button>
     </aside>
-<section id="question-container" style="display: none;" >
-    <img id="question.image" src="" alt="Question Image">
 
-</section>
+    <section id='question-container' style="display: none;" >
+    <img id='question-image' src="" alt="Question Image">
+    </section>
+    
+    <section id="question">
+    <p id='question-text'></p>
+    <ul class="options" id='options-container'></ul>
+    <button id="submit" onclick="calculateScore()" style="display: none;">Submit</button>
+    </section>
 
-<section id="question">
-    <p id="question-text"></p>
-    <ul class="options" id="option-container"></ul>
-    <button id="submit" onclick="calculateScore()" style="display: none;"></button>
-</section>
-
-<section class="score-area">
+    <section class="score-area">
     <p class="scores">Correct Answers <span id="score">0</span></p>
     <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
-</section>
+    </section>
 
   </main>
   <footer>
 
   </footer>
-  <script src="./assets/js/script.js"></script>  
+  <script src="./assets/js/"></script>  
 </body>
 </html>
