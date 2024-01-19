@@ -3,6 +3,7 @@
 
 const startButton = document.getElementById('start-btn')
 const startContainer = document.getElementById('start-container')
+const questionContainerElemnt = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('andswer-buttons')
 let shuffledQuestions,  currentQuestionIndex
@@ -11,11 +12,11 @@ let shuffledQuestions,  currentQuestionIndex
 startButton.addEventListener('click', startGame)
 
 function startGame(){
-    console.log(startGame)
     startButton.classList.add("hide")
     startContainer.classList.add("hide")
     shuffledQuestions = questions.sort(() => Math.random() - .5)
-    currentQuestionIndex = 0 
+    currentQuestionIndex = 0
+    questionContainerElement.classList.remove('hide') 
     setNextQuestion()
 
 }
