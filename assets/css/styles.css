@@ -24,12 +24,17 @@ section {
     padding: 1%;
     margin-top: 15px;
     width: 800px;
-    max-width: 90%;S
+    max-width: 90%;
+    
+}
+.btn-grid{
     display: grid;
     grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
 }
 
-.q-btn{
+.btn{
  padding: 1.5rem;
  background-color: #70b5ff; 
  color: white;
