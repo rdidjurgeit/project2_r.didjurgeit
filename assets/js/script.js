@@ -27,29 +27,29 @@ function setNextQuestion(){
     showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
-function showQuestion(question){
+function showQuestion(question) {
     questionElement.innerText = question.question
-    question.answer.forEach(answer => {
-        const button =document.createElement('button')
-        button.innerText = answer.text
-        button.classList.add('btn')
-    if (answer.correct) {
+    question.answers.forEach(answer => {
+      const button = document.createElement('button')
+      button.innerText = answer.text
+      button.classList.add('btn')
+      if (answer.correct) {
         button.dataset.correct = answer.correct
-    }
-    button.addEventListenner('click', selectAnswer)
-    answerButtonsElement.appendChild(button)
-})
-}
+      }
+      button.addEventListener('click', selectAnswer)
+      answerButtonsElement.appendChild(button)
+    })
+  }
 
 
-function selectAnswer(){
+function selectAnswer(e){
 
 }
 
 const questions =[
  {
 question:'54.When driving at 6 knots or more in a powered vessel, what is the minimum distance you must keep from moored vessels where possible?',
-answer:[
+answers:[
     {text: 'A. 30 metres', correct: true},
     {text: 'B. 10 metres', correct: false},
     {text: 'C. 20 metres', correct: false}
@@ -57,7 +57,7 @@ answer:[
 },
 {
 question:'61.Looking at the cardinal mark pictured, what would be the safest side to drive your vessel?',
-answer:[
+answers:[
     {text: 'A. East', correct: false},
     {text: 'B. North', correct: false},
     {text: 'C. West', correct: true}
@@ -65,7 +65,7 @@ answer:[
 },
  {
 question:'102.Vessel A is using its sails and vessel B is using its engine. Who must give way?',
-answer:[
+answers:[
     {text: 'A. Whichever vessel is travelling the slowest', correct: false}, 
     {text: 'B. Vessel B  the powered vessel', correct: true},
     {text: 'C. Vessel A  the sailing vessel', correct: false}
