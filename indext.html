@@ -34,24 +34,24 @@
     <aside id="start-container">
         <p>Welcome to The Free Boat License Test. The question related to this Test are official and is common knowledge for a recreation boat captain IT is offer from the NSW <a href="https://www.nsw.gov.au/sites/default/files/2021-10/general-boat-driving-licence-knowledge-test-questions.pdf">Government</a> </p>
         <p>Press the Start button to begin the Quiz</p>
-        <button onclick="startQuiz()">Start</button>
     </aside>
 
-    <section id='question-container' style="display: none;" >
-    <img id='question-image' src="" alt="Question Image">
+    <section id='question-container' style="display:;" >
+        <img id='question-image' src="" alt="Question Image">
+        <p>This is a Image</p>
     </section>
     
     <section id="question">
-    <p id='question-text'></p>
-    <ul class="options" id='options-container'></ul>
-    <button id="submit" onclick="calculateScore()" style="display: none;">Submit</button>
+        <button class="q-btn">Answer1</button>
+        <button class="q-btn">Answer2</button>
+        <button class="q-btn">Answer3</button>
+        <button id="start-btn" class="move-btn">Start</button>
+        <button id="next-btn" class="move-btn">Next</button>
+    
     </section>
-
-    <section class="score-area">
-    <p class="scores">Correct Answers <span id="score">0</span></p>
-    <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+        <p class="scores">Correct Answers <span id="score">0</span></p>
+        <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
     </section>
-
   </main>
   <footer>
 
