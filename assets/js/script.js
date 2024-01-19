@@ -1,6 +1,22 @@
 // When DOM is loaded, run the game
 // Event listeners
 
+const startButton = document.getElementById(start-btn)
+
+startButton.addEventListener('cluck', startGame)
+
+function startGame (){
+
+}
+
+function setNextQuestion(){
+
+}
+
+function select Answer(){
+    
+}
+
 const questions =[
     {
         id:1
