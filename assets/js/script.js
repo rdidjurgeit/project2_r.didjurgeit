@@ -2,12 +2,13 @@
 // Event listeners
 
 const startButton = document.getElementById('start-btn')
-
+const startContainer = document.getElementById('start-container')
 startButton.addEventListener('click', startGame)
 
 function startGame(){
     console.log(startGame)
     startButton.classList.add("hide")
+    startContainer.classList.add("hide")
 
 }
 
