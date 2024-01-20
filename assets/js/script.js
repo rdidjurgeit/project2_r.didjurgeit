@@ -12,6 +12,10 @@ let shuffledQuestions,  currentQuestionIndex
 
 
 startButton.addEventListener('click', startGame)
+nextButton. addEventListener('click', () => {
+    currentQuestionIndex++
+    setNextQuestion()
+})
 
 function startGame(){
     startButton.classList.add("hide")
