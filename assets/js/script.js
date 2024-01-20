@@ -7,6 +7,7 @@ const questionContainerElemnt = document.getElementById('question-container')
 const controlContainerElemnt = document.getElementById('controls')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
+const nextButton = document.getElementById('next-btn')
 let shuffledQuestions,  currentQuestionIndex
 
 
@@ -24,6 +25,7 @@ function startGame(){
 }
 
 function setNextQuestion(){
+    resetState()
     showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
@@ -40,11 +42,38 @@ function showQuestion(question) {
       answerButtonsElement.appendChild(button)
     })
   }
+  function resetState(){
+    while (answerButtonsElement.firstChild) {
+      answerButtonsElement.removeChild(answerButtonsElement.firstChild)
+    }
+  }
 
 
 function selectAnswer(e){
-
+    const selectedButton = e.target
+    const buttons = document.querySelectorAll('.btn');
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+          // Check if the data-correct attribute is true
+          const isCorrect = button.getAttribute('data-correct') === 'true';
+      
+          // Display a message based on the result
+          if (isCorrect) {
+            alert('Correct!');
+          } else {
+            alert('Incorrect!');
+          }
+        });
+      });
 }
+
+function checkAnswer(option){
+    
+    
+}
+
+
+
 
 const questions =[
  {
