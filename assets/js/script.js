@@ -59,9 +59,9 @@ function selectAnswer(e){
           const isCorrect = button.getAttribute('data-correct') === 'true';
           // Display a message based on the result
           if (isCorrect) {
-            alert('Correct');
+            incrementScore();
           } else {
-            alert('Incorrect!');
+            incrementWrongAnswer();
           }
           buttons.forEach(disableButton =>{
             disableButton.disabled = true ;
@@ -70,8 +70,18 @@ function selectAnswer(e){
       });
 }
 
-function checkAnswer(){
+function incrementScore() {
 
+    let oldScore = parseInt(document.getElementById("score").innerText);
+    document.getElementById("score").innerText = ++oldScore;
+
+}
+
+function incrementWrongAnswer() {
+
+    let oldScore = parseInt(document.getElementById("incorrect").innerText);
+    document.getElementById("incorrect").innerText = ++oldScore;
+    
 }
 
 
