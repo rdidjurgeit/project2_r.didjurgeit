@@ -51,28 +51,28 @@ function showQuestion(question) {
 
 function selectAnswer(e){
     const selectedButton = e.target
+    //collect all btn data
     const buttons = document.querySelectorAll('.btn');
     buttons.forEach(button => {
         button.addEventListener('click', () => {
           // Check if the data-correct attribute is true
           const isCorrect = button.getAttribute('data-correct') === 'true';
-      
           // Display a message based on the result
           if (isCorrect) {
-            alert('Correct!');
+            alert('Correct');
           } else {
             alert('Incorrect!');
           }
+          buttons.forEach(disableButton =>{
+            disableButton.disabled = true ;
+          })
         });
       });
 }
 
-function checkAnswer(option){
-    
-    
+function checkAnswer(){
+
 }
-
-
 
 
 const questions =[
