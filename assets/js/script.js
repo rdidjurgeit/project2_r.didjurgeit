@@ -137,4 +137,49 @@ const questions = [
       { text: "C. Vessel A  the sailing vessel", correct: false },
     ],
   },
+  {
+    question:
+      "07.What should you consider about your vessel before travelling to open waters?",
+    answers: [
+      { text: "A. How your vessel performs when towing", correct: false },
+      { text: "B. Whether your vessel is stable in enclosed waters", correct: false },
+      { text: "C. Whether your vessel is suitable for large waves", correct: true },
+    ],
+  },
+  {
+    question:
+      "12.What is an example of a tidal impact to consider when you are planning to go on the water?",
+    answers: [
+      { text: "A. Tide may indicate thunderstorms approaching", correct: false },
+      { text: "B. No example, tides have no impact on boating", correct: false },
+      { text: "C. Tide may impact your ability to launch or return to safe harbour", correct: true },
+    ],
+  },
+  {
+    question:
+      "18.If keeping a proper lookout is difficult, you should:",
+    answers: [
+      { text: "A. Carry on anyway", correct: false },
+      { text: "B. Speed up to get home quicker", correct: false },
+      { text: "C. Slow down and assess the conditions", correct: true },
+    ],
+  },
+  {
+    question:
+      "38.If you see a whale and its calf in the water ahead of your vessel you should:",
+    answers: [
+      { text: "A. Slow down or stop and maintain a distance of at least 300 metres", correct: true },
+      { text: "B. Quickly turn off your motor", correct: false },
+      { text: "C. Hold your course and wait for the whales to avoid you", correct: false },
+    ],
+  },
+  {
+    question:
+      "66.Are you allowed to attach your vessel to a navigation aid or bridge?",
+    answers: [
+      { text: "A. Yes if it is a cardinal mark", correct: false },
+      { text: "B. No", correct: true },
+      { text: "C. Yes if it is high tide", correct: false },
+    ],
+  },
 ];
