@@ -29,6 +29,9 @@ function startGame(){
     //Will sort the question  
     shuffledQuestions = questions.sort(() => Math.random() - .5)
     currentQuestionIndex = 0
+    //reset score from previous game.
+    document.getElementById('score').innerText= 0;
+    document.getElementById('incorrect').innerText= 0;
     setNextQuestion()
 }
 
@@ -81,13 +84,12 @@ function selectAnswer(e){
           }
           buttons.forEach(disableButton =>{
             disableButton.disabled = true ;
+            //It check if it is the lest question and let restart the game 
             if (shuffledQuestions.length > currentQuestionIndex + 1) {
                 nextButton.classList.remove('hide')
               } else {
                 startButton.innerText = 'Restart'
                 startButton.classList.remove('hide')
-                document.getElementById('score').innerText= 0;
-                document.getElementById('incorrect').innerText= 0;
               }
           })
         });     
@@ -111,8 +113,6 @@ function incrementWrongAnswer() {
     if (oldScore>=3){
         alert('Finish')
         startGame()
-        document.getElementById('score').innerText= 0;
-        document.getElementById('incorrect').innerText= 0;
     }
     
 }
