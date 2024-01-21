@@ -81,7 +81,14 @@ function selectAnswer(e){
           }
           buttons.forEach(disableButton =>{
             disableButton.disabled = true ;
-            nextButton.classList.remove('hide')
+            if (shuffledQuestions.length > currentQuestionIndex + 1) {
+                nextButton.classList.remove('hide')
+              } else {
+                startButton.innerText = 'Restart'
+                startButton.classList.remove('hide')
+                document.getElementById('score').innerText= 0;
+                document.getElementById('incorrect').innerText= 0;
+              }
           })
         });     
       });
@@ -101,7 +108,7 @@ function incrementWrongAnswer() {
     let oldScore = parseInt(document.getElementById("incorrect").innerText);
     document.getElementById("incorrect").innerText = ++oldScore;
 
-    if (oldScore>=2){
+    if (oldScore>=3){
         alert('Finish')
         startGame()
         document.getElementById('score').innerText= 0;
