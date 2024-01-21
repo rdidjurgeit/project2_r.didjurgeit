@@ -17,11 +17,13 @@ startButton.addEventListener('click', startGame)
 nextButton. addEventListener('click', () => {
     currentQuestionIndex++
     setNextQuestion()
+    nextButton.classList.add('hide')
 })
 //Game Start
 function startGame(){
     startButton.classList.add("hide")
     startContainer.classList.add("hide")
+    nextButton.classList.add('hide')
     questionContainerElemnt.classList.remove('hide')
     controlContainerElemnt.classList.remove('hide') 
     //Will sort the question  
@@ -64,6 +66,7 @@ function selectAnswer(e){
     const selectedButton = e.target
     //collect all btn data
     const buttons = document.querySelectorAll('.btn');
+
     buttons.forEach(button => {
         button.addEventListener('click', () => {
           // Check if the data-correct attribute is true
@@ -78,8 +81,8 @@ function selectAnswer(e){
           }
           buttons.forEach(disableButton =>{
             disableButton.disabled = true ;
+            nextButton.classList.remove('hide')
           })
-          
         });     
       });
       }
