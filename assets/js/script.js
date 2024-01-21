@@ -70,12 +70,12 @@ function selectAnswer(e){
     //collect all btn data
     const buttons = document.querySelectorAll('.btn');
 
-    buttons.forEach(button => {
-        button.addEventListener('click', () => {
+   
+        
           // Check if the data-correct attribute is true
-          const isCorrect = button.getAttribute('data-correct') === 'true';
+          const isCorrect = selectedButton.getAttribute('data-correct') === 'true';
 
-          button.style.backgroundColor = isCorrect ? 'green' : 'red';
+          selectedButton.style.backgroundColor = isCorrect ? 'green' : 'red';
           // Display a message based on the result
           if (isCorrect) {
             incrementScore();
@@ -91,10 +91,8 @@ function selectAnswer(e){
                 startButton.innerText = 'Restart'
                 startButton.classList.remove('hide')
               }
-          })
-        });     
-      });
-      }
+          })      
+      };
 
 
       //FUnction to Increment Score  Correct and Incorrect
