@@ -96,6 +96,11 @@ function selectAnswer(e) {
 function incrementScore() {
   let oldScore = parseInt(document.getElementById("score").innerText);
   document.getElementById("score").innerText = ++oldScore;
+  if (oldScore >= 4) {
+    alert("You Pass");
+    startButton.innerText = "Restart";
+    startButton.classList.remove("hide");
+  }
 }
 
 function incrementWrongAnswer() {
@@ -103,7 +108,7 @@ function incrementWrongAnswer() {
   document.getElementById("incorrect").innerText = ++oldScore;
 
   if (oldScore >= 3) {
-    alert("Finish");
+    alert("Finish you fail");
     startGame();
   }
 }
