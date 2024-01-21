@@ -8,6 +8,8 @@ const controlContainerElemnt = document.getElementById('controls')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 const nextButton = document.getElementById('next-btn')
+
+//Will make the question be scuffled and not show in the same order use Let instead of const other wise he will not be a variable that can populated.
 let shuffledQuestions,  currentQuestionIndex
 
 
@@ -16,27 +18,32 @@ nextButton. addEventListener('click', () => {
     currentQuestionIndex++
     setNextQuestion()
 })
-
+//Game Start
 function startGame(){
     startButton.classList.add("hide")
     startContainer.classList.add("hide")
     questionContainerElemnt.classList.remove('hide')
-    controlContainerElemnt.classList.remove('hide')  
+    controlContainerElemnt.classList.remove('hide') 
+    //Will sort the question  
     shuffledQuestions = questions.sort(() => Math.random() - .5)
     currentQuestionIndex = 0
     setNextQuestion()
-
 }
 
 function setNextQuestion(){
     resetState()
+    //show Question at the corrent question Index
     showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
+//Show question fon the List
 function showQuestion(question) {
+    //Made so the text inside is populate by info from question
     questionElement.innerText = question.question
     question.answers.forEach(answer => {
       const button = document.createElement('button')
+
+       //Great Button so the text inside is populate by info from question
       button.innerText = answer.text
       button.classList.add('btn')
       if (answer.correct) {
@@ -61,19 +68,24 @@ function selectAnswer(e){
         button.addEventListener('click', () => {
           // Check if the data-correct attribute is true
           const isCorrect = button.getAttribute('data-correct') === 'true';
+
+          button.style.backgroundColor = isCorrect ? 'green' : 'red';
           // Display a message based on the result
           if (isCorrect) {
             incrementScore();
           } else {
-            incrementWrongAnswer();
+            incrementWrongAnswer(); 
           }
           buttons.forEach(disableButton =>{
             disableButton.disabled = true ;
           })
-        });
+          
+        });     
       });
-}
+      }
 
+
+      //FUnction to Increment Score  Correct and Incorrect
 function incrementScore() {
 
     let oldScore = parseInt(document.getElementById("score").innerText);
@@ -88,7 +100,7 @@ function incrementWrongAnswer() {
     
 }
 
-
+//Constans List of question
 const questions =[
  {
 question:'54.When driving at 6 knots or more in a powered vessel, what is the minimum distance you must keep from moored vessels where possible?',

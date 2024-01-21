@@ -33,6 +33,9 @@ section {
     gap: 10px;
     margin: 20px 0;
 }
+.btn:hover{
+    background-color: #5087c1;
+}
 
 .btn{
  padding: 1.5rem;
