@@ -100,6 +100,13 @@ function incrementWrongAnswer() {
 
     let oldScore = parseInt(document.getElementById("incorrect").innerText);
     document.getElementById("incorrect").innerText = ++oldScore;
+
+    if (oldScore>=2){
+        alert('Finish')
+        startGame()
+        document.getElementById('score').innerText= 0;
+        document.getElementById('incorrect').innerText= 0;
+    }
     
 }
 
