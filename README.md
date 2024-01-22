@@ -5,7 +5,7 @@
   <img src="./assets/images/responsive.webp" alt="Home Page">
 </div>
 
- Ahoy there!, Sailing School,Is happy to introduce the Trivia Game for boat License for Recreation Purpose If you've ever dreamt of navigating the open seas, feeling the wind in your sails, and harnessing the power of the ocean, you're in the right place. Sailing School is your go-to resource for mastering the basics of sailing. In THis README you will find all the process that we use to build our Tool to help you master the information to pass in the Test. My Ideia is to bring information to people that are interest in sailing.
+ Ahoy there!, Sailing School,Is happy to introduce the Trivia Game for boat License for Recreation Purpose If you've ever dreamt of navigating the open seas, feeling the wind in your sails, and harnessing the power of the ocean, you're in the right place. Sailing School is your go-to resource for mastering the basics of sailing. In This README you will find all the process that we use to build our Tool to help you master the information to pass in the Test. I am a sailor since 1999  and i have struggle to get all the information today it is possible to have in the tip of your fingers.My Idea is to bring information to people that are interest in sailing.
 
  [Link for our Quizz](https://rdidjurgeit.github.io/project2_r.didjurgeit/)
 ## Table of Contents
@@ -99,7 +99,9 @@
 
 ### Concept
 
-The concent is a quiz game to test knowledge about the License for Recreation Boating. The idea is to have pictures that will be later implemented. 
+Embark on a thrilling journey of maritime knowledge with "Boater's Quest Quiz" – an engaging and educational quiz game designed to test and enhance your understanding of the License for Recreation Boating. Get ready to set sail on a virtual adventure filled with questions, challenges, and captivating visuals that bring the world of boating to life.
+
+The concent is a quiz game to test knowledge about the License for Recreation Boating. The idea is to have later on pictures that will be later implemented. During develop the idea to have a Submit button was later change to only have a nex when question is selected
 
 - Wiframe Mobile,
 

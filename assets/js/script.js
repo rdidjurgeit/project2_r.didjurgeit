@@ -21,18 +21,30 @@ nextButton.addEventListener("click", () => {
 
 //Game Start
 function startGame() {
-  startButton.classList.add("hide");
-  startContainer.classList.add("hide");
-  nextButton.classList.add("hide");
-  questionContainerElemnt.classList.remove("hide");
-  controlContainerElemnt.classList.remove("hide");
+  addClassList()
+  removeClassList()
   //Will sort the question
   shuffledQuestions = questions.sort(() => Math.random() - 0.5);
   currentQuestionIndex = 0;
   //reset score from previous game.
+  zeroScore()
+  setNextQuestion();
+}
+
+function addClassList(){
+  startButton.classList.add("hide");
+  startContainer.classList.add("hide");
+  nextButton.classList.add("hide");
+}
+
+function removeClassList(){
+  questionContainerElemnt.classList.remove("hide");
+  controlContainerElemnt.classList.remove("hide");
+}
+
+function zeroScore(){
   document.getElementById("score").innerText = 0;
   document.getElementById("incorrect").innerText = 0;
-  setNextQuestion();
 }
 
 function setNextQuestion() {
