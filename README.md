@@ -2,7 +2,7 @@
   <img src="./assets/images/logo.png" alt="Sailing School">
 </div>
 <div align="center">
-  <img src="./assets/images/responsive.webp" alt="Home Page">
+  <img src="./assets/images/responsive.JPG" alt="Home Page">
 </div>
 
  Ahoy there!, Sailing School,Is happy to introduce the Trivia Game for boat License for Recreation Purpose If you've ever dreamt of navigating the open seas, feeling the wind in your sails, and harnessing the power of the ocean, you're in the right place. Sailing School is your go-to resource for mastering the basics of sailing. In This README you will find all the process that we use to build our Tool to help you master the information to pass in the Test. I am a sailor since 1999  and i have struggle to get all the information today it is possible to have in the tip of your fingers.My Idea is to bring information to people that are interest in sailing.
@@ -126,15 +126,17 @@ The target audience :
 - People that want to know about safety.
 - People that want to test you knowledge. 
 
-User goals are:.
+### User goals are
 
-- Get an overview of the test knowledge of Boat Licence.
+- Get an overview of the test knowledge of Boat License.
+- Practice to the test, get information about the test. 
 
 The School fills these needs by:
 
 - Opening with a basic overview and explanation about the rules and giving links to know more about.
-- QUestion are Randomize and not Repeating them self during the game.
+- Question are Randomize and not Repeating them self during the game.
 - you need at the moment 5 correct response to pass but in the future will integrate the correct quantity os question question need it to pass in the test as the wrong question .
+- Prepare for Boating Certification: Whether you're a seasoned boater or a newcomer seeking certification, "Boater's Quest Quiz" serves as an excellent study tool. Brush up on the latest regulations and guidelines, ensuring you are well-prepared for any boating examination.
 
 ## Visual Design
 
@@ -150,6 +152,7 @@ The School fills these needs by:
 ### Colors
 
 - I wanted the site to maintain a minimal aesthetic, colors are very basic and clean . Using diferent tones of Blue.
+- A clean and intuitive interface, allowing you to navigate seamlessly through questions and challenges. The absence of unnecessary elements ensures a distraction-free learning environment.
 
 ### Images
 
@@ -161,21 +164,15 @@ The School fills these needs by:
 
 ## Page Elements
 
-### All Pages
-
 ### Index Page
 
-- Delivery information from The rules.
+- Delivery information from The rules.The design philosophy revolves around keeping the learning experience focused and immersive. No flashy elements, just you and the knowledge of boating against a backdrop of serene blues. The Correct response will be in Green and Next Button wil show up.
 
 ## Feature Ideas
 
-### Classes
-
-- A selection of classes that I consider interesting to be recording to change the outside content .
-
 ### Content 
 
-- Considering to make a instagram and have a better Foot in the social Media.
+- As we sail through the boundless opportunities of the internet, the thought emerges like a guiding star on the horizon. Considering to make an Instagram presence and have a better foot in the social media. Later on maybe animation to help visualize.
 
 ----
 
@@ -212,6 +209,10 @@ The School fills these needs by:
 ----
 # Testing
 
+<div align="center">
+  <img src="./assets/images/w3validator.JPG" alt="Home Page">
+</div>
+
 ## Methods
 
 ### Validation
@@ -221,20 +222,31 @@ The School fills these needs by:
 - Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
 - Each javascript file was tested on the site for errors and functionality using the console.
 
+
+
 ## General Testing
 
+<div align="center">
+  <img src="./assets/images/metric.JPG" alt="Home Page">
+</div>
 ### Mobile Testing
 
 - I tested the site personally in my mobile, going through all the pages.
 - Chrome was utilized to inspect the site in mobile format, going through the pages and functions.
 
 ### Desktop Testing
+
+<div align="center">
+  <img src="./assets/images/metric_desk.JPG" alt="Home Page">
+</div>
+
 - The site was marginally tested on other browsers, such as Firefox.
 
 ## Bugs
+
 ### Known Bugs
 
-- The inition Bugs was that you need it after change question to click 2 times so the click will computive. That was fix and it was a problem of logic during the process to generate a new question.
+- The initial Bugs was that you need it after change question to click 2 times so the click will compute. That was fix and it was a problem of logic during the process to generate a new question.
 
 ----
 
