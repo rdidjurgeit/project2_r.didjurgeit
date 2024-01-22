@@ -77,28 +77,32 @@ function resetState() {
 }
 
 function selectAnswer(e) {
-  const selectedButton = e.target;
-  //collect all btn data
-  const buttons = document.querySelectorAll(".btn");
-  // Check if the data-correct attribute is true
-  const isCorrect = selectedButton.getAttribute("data-correct") === "true";
-  selectedButton.style.backgroundColor = isCorrect ? "green" : "red";
-  // Display a message based on the result
-  if (isCorrect) {
+  try{
+    const selectedButton = e.target;
+    //collect all btn data
+    const buttons = document.querySelectorAll(".btn");
+    // Check if the data-correct attribute is true
+    const isCorrect = selectedButton.getAttribute("data-correct") === "true";
+    selectedButton.style.backgroundColor = isCorrect ? "green" : "red";
+    // Display a message based on the result
+    if (isCorrect) {
     incrementScore();
-  } else {
+    } else {
     incrementWrongAnswer();
-  }
-  buttons.forEach((disableButton) => {
-    disableButton.disabled = true;
-    //It check if it is the lest question and let restart the game
-  if (shuffledQuestions.length > currentQuestionIndex + 1) {
+    }
+    buttons.forEach((disableButton) => {
+      disableButton.disabled = true;
+      //It check if it is the lest question and let restart the game
+      if (shuffledQuestions.length > currentQuestionIndex + 1) {
       nextButton.classList.remove("hide");
       } else {
       startButton.innerText = "Restart";
       startButton.classList.remove("hide");
       }
   });
+  } catch {
+    alert('Error Reload')
+  }
 }
 
 //FUnction to Increment Score  Correct and Incorrect
