@@ -28,18 +28,19 @@ nav{
    position:absolute ;
     top: 78px;
     right: 5px;
-  button{
- background-color: #355a81; 
- color:white;
- border: none;
- border-radius:  0 0 0.5rem 0.5rem; 
- font-size:1em;
- a{
+  }
+
+  nav button{
+    background-color: #355a81; 
+    color:white;
+    border: none;
+    border-radius:  0 0 0.5rem 0.5rem; 
+    font-size:1em;
+  }
+  nav a{
     text-decoration:none;
     color: inherit; 
    } 
-  }
-}
 
 /* --------- Game layout */
 
