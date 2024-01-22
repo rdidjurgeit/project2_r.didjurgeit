@@ -1,4 +1,5 @@
 /* --------- Global style */
+
 body{
     font-family: "Anton", sans-serif;
     letter-spacing:  2px;
@@ -31,16 +32,14 @@ nav{
  background-color: #568fcb; 
  color: white;
  border: none;
- border-radius:  0 0 0.5rem 0.5rem;  
-  }
-
-  
-}
-
-a{
+ border-radius:  0 0 0.5rem 0.5rem; 
+ a{
     text-decoration:none;
     color: inherit; 
-   }
+   } 
+  }
+}
+
 /* --------- Game layout */
 
 section {
