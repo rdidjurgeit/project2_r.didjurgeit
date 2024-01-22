@@ -47,7 +47,6 @@ function showQuestion(question) {
   questionElement.innerText = question.question;
   question.answers.forEach((answer) => {
     const button = document.createElement("button");
-
     //Great Button so the text inside is populate by info from question
     button.innerText = answer.text;
     button.classList.add("btn");
@@ -69,10 +68,8 @@ function selectAnswer(e) {
   const selectedButton = e.target;
   //collect all btn data
   const buttons = document.querySelectorAll(".btn");
-
   // Check if the data-correct attribute is true
   const isCorrect = selectedButton.getAttribute("data-correct") === "true";
-
   selectedButton.style.backgroundColor = isCorrect ? "green" : "red";
   // Display a message based on the result
   if (isCorrect) {
@@ -83,12 +80,12 @@ function selectAnswer(e) {
   buttons.forEach((disableButton) => {
     disableButton.disabled = true;
     //It check if it is the lest question and let restart the game
-    if (shuffledQuestions.length > currentQuestionIndex + 1) {
+  if (shuffledQuestions.length > currentQuestionIndex + 1) {
       nextButton.classList.remove("hide");
-    } else {
+      } else {
       startButton.innerText = "Restart";
       startButton.classList.remove("hide");
-    }
+      }
   });
 }
 
@@ -106,7 +103,6 @@ function incrementScore() {
 function incrementWrongAnswer() {
   let oldScore = parseInt(document.getElementById("incorrect").innerText);
   document.getElementById("incorrect").innerText = ++oldScore;
-
   if (oldScore >= 3) {
     alert("Finish you fail");
     startGame();
@@ -126,11 +122,11 @@ const questions = [
   },
   {
     question:
-      "61.Looking at the cardinal mark pictured, what would be the safest side to drive your vessel?",
+      "You are travelling towards a bridge, and read a sign giving the maximum vessel height (clearance height).When might this height be less than signposted??",
     answers: [
-      { text: "A. East", correct: false },
-      { text: "B. North", correct: false },
-      { text: "C. West", correct: true },
+      { text: "A. During floods", correct: true },
+      { text: "B. At low tide", correct: false },
+      { text: "C. At night", correct: false },
     ],
   },
   {

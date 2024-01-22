@@ -2,7 +2,7 @@
   <img src="./assets/images/logo.png" alt="Sailing School">
 </div>
 <div align="center">
-  <img src="./assets/images/responsive.JPG" alt="Home Page">
+  <img src="./assets/images/responsive.webp" alt="Home Page">
 </div>
 
  Ahoy there!, Sailing School,Is happy to introduce the Trivia Game for boat License for Recreation Purpose If you've ever dreamt of navigating the open seas, feeling the wind in your sails, and harnessing the power of the ocean, you're in the right place. Sailing School is your go-to resource for mastering the basics of sailing. In THis README you will find all the process that we use to build our Tool to help you master the information to pass in the Test. My Ideia is to bring information to people that are interest in sailing.
@@ -104,13 +104,13 @@ The concent is a quiz game to test knowledge about the License for Recreation Bo
 - Wiframe Mobile,
 
 <div align="center">
-  <img src="./assets/images/wiframe_mobile.JPG" alt="Wiframe Mobile">
+  <img src="./assets/images/wiframe_mobile.webp" alt="Wiframe Mobile">
 </div>
 
 - Wiframe Desktop,
 
 <div align="center">
-  <img src="./assets/images/wifreme_Desktop.JPG" alt="Wiframe Desktop">
+  <img src="./assets/images/wifreme_desktop.webp" alt="Wiframe Desktop">
 </div>
 
 ## Goals
