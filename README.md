@@ -2,13 +2,15 @@
   <img src="./assets/images/logo.png" alt="Sailing School">
 </div>
 <div align="center">
-  <img src="./assets/images/responsive.jpg" alt="Home Page">
+  <img src="./assets/images/responsive_1.webp" alt="Home Page">
 </div>
 
  Ahoy there!, Sailing School,Is happy to introduce the Trivia Game for boat License for Recreation Purpose If you've ever dreamt of navigating the open seas, feeling the wind in your sails, and harnessing the power of the ocean, you're in the right place. Sailing School is your go-to resource for mastering the basics of sailing. In This README you will find all the process that we use to build our Tool to help you master the information to pass in the Test. I am a sailor since 1999  and i have struggle to get all the information today it is possible to have in the tip of your fingers.My Idea is to bring information to people that are interest in sailing.
 
  [Link for our Quizz](https://rdidjurgeit.github.io/project2_r.didjurgeit/)
+
 ## Table of Contents
+
 1. <details open>
     <summary><a href="#ux">UX</a></summary>
 
@@ -33,6 +35,7 @@
     - [Images](#images)
     </details></li>
     </ul>
+
 </details>
 2. <details open>
     <summary><a href="#features">Features</a></summary>
@@ -45,6 +48,7 @@
     - [Libraries](#libraries)
     - [Platforms](#platforms)
     - [Other Tools](#other-tools)
+
 </details>
 
 4. <details open>
@@ -66,6 +70,7 @@
     - [Known Bugs](#known-bugs)
     </details></li>
     </ul>
+
 </details>
 
 5. <details open>
@@ -84,6 +89,7 @@
     - [Github Preparation](#github-preparation)
     </details></li>
     </ul>
+
 </details>
 
 6. <details open>
@@ -91,6 +97,7 @@
 
     - [Content](#content)
     - [Contact](#contact)
+
 </details>
 
 ----
@@ -109,27 +116,31 @@ The concent is a quiz game to test knowledge about the License for Recreation Bo
   <img src="./assets/images/wiframe_mobile.webp" alt="Wiframe Mobile">
 </div>
 
+----
 - Wiframe Desktop,
 
 <div align="center">
   <img src="./assets/images/wifreme_desktop.webp" alt="Wiframe Desktop">
 </div>
 
+----
+
 ## Goals
 
 ### Visitor Goals
+
 The target audience :
 
 - People who want to Lear how to Sail.
 - People who are interested in advance your one knowledge .
 - People that want to buy a Boat.
 - People that want to know about safety.
-- People that want to test you knowledge. 
+- People that want to test you knowledge.
 
 ### User goals are
 
 - Get an overview of the test knowledge of Boat License.
-- Practice to the test, get information about the test. 
+- Practice to the test, get information about the test.
 
 The School fills these needs by:
 
@@ -170,7 +181,7 @@ The School fills these needs by:
 
 ## Feature Ideas
 
-### Content 
+### Content
 
 - As we sail through the boundless opportunities of the internet, the thought emerges like a guiding star on the horizon. Considering to make an Instagram presence and have a better foot in the social media. Later on maybe animation to help visualize.
 
@@ -181,53 +192,57 @@ The School fills these needs by:
 ## Languages
 
 - [HTML](https://html.spec.whatwg.org/)
-    * Page markup.
+  - Page markup.
 - [CSS](https://www.w3.org/Style/CSS/specs.en.html)
-    * Styling.
+  - Styling.
 -
 - [Javascript](https://standardjs.com/)
-    * Running function for interactive.
+  - Running function for interactive.
 
 ## Libraries
 
     * Font Styles.
+
 - [Fontawesome](https://fontawesome.com/)
-    * Used for icons
+  - Used for icons
 
 ## Platforms
+
 - [Github](https://github.com/)
-    * Storing code remotely and deployment.
+  - Storing code remotely and deployment.
 - [Gitpod](https://gitpod.io/)
-    * IDE for project development.
+  - IDE for project development.
 
 ## Other Tools
+
 - [Visual Studio Code](https://code.visualstudio.com/)
-    * To create. 
-    * Extension: Code Spell Checker;Prettier; Live Server,ESlint,Node.js,PowerShell
+  - To create.
+  - Extension: Code Spell Checker;Prettier; Live Server,ESlint,Node.js,PowerShell
 - [Favicon from icons8](https://icons8.com/)
-    * Favicons
+  - Favicons
+
 ----
+
 # Testing
 
 <div align="center">
-  <img src="./assets/images/w3validator.jpg" alt="Home Page">
+  <img src="./assets/images/w3validator.webp" alt="Home Page">
 </div>
 
 ## Methods
 
 ### Validation
+
 - HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/).
-  * Only Warning since section have no heading but for this case it is not necessary.
-- CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
+  - Only Warning since section have no heading but for this case it is not necessary.
+- CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 - Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
 - Each javascript file was tested on the site for errors and functionality using the console.
-
-
 
 ## General Testing
 
 <div align="center">
-  <img src="./assets/images/metric.jpg" alt="Home Page">
+  <img src="./assets/images/metric.webp" alt="Home Page">
 </div>
 ### Mobile Testing
 
@@ -237,7 +252,7 @@ The School fills these needs by:
 ### Desktop Testing
 
 <div align="center">
-  <img src="./assets/images/metric_desk.jpg" alt="Home Page">
+  <img src="./assets/images/metric_desk.JPG" alt="Home Page">
 </div>
 
 - The site was marginally tested on other browsers, such as Firefox.
@@ -251,18 +266,25 @@ The School fills these needs by:
 ----
 
 # Deployment
+
 ## Local Deployment
+
 ### Local Preparation
+
 **Requirements:**
+
 - An IDE of your choice, such as [Visual Studio Code](https://code.visualstudio.com/)
 - [Git](https://git-scm.com/)
 - You will have to set up a connection with an email
 
 ## Credits and Contact
+
 ### Content
+
 The question where taken from  [NSW GOV](https://www.nsw.gov.au/sites/default/files/2021-10/general-boat-driving-licence-knowledge-test-questions.pdf).
 This version off quiz game is base on a similar from the creator [WebDev Simplified](https://www.youtube.com/@WebDevSimplified) He have a nice way to show the process of creating the quiz some steps where follow and same terminology use. During my research i found similar Quiz game with same terminology and ideas. I decide to follow the [video](https://www.youtube.com/watch?v=riDzcEQbX6k&t=237s&ab_channel=WebDevSimplified) from this Content Creator because he explain in a good way the process.
 Readme example provide by my mentor Patrick Rory.
 
 ### Contact
+
 Please feel free to contact me at `didjurgeit.raphael@gmail.com`

@@ -48,7 +48,7 @@ nav .button:hover {
 
 /* --------- Game layout */
 
-section {
+section, div {
     background-color: #E6ECF0;
     box-sizing: border-box;
     margin-left: auto;
@@ -132,6 +132,23 @@ span {
     color: #355a81;
     margin-top: 10px;
     text-align: center;
+}
+
+/* Hint Button Style */
+
+.hint-btn {
+    padding: 1rem;
+    background-color: #ffa500; /* Orange */
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.hint-btn:hover {
+    background-color: #ff8c00; /* Darker Orange */
 }
 
 @media (max-width: 768px) {
