@@ -2,7 +2,7 @@
   <img src="./assets/images/logo.png" alt="Sailing School">
 </div>
 <div align="center">
-  <img src="./assets/images/responsive.JPG" alt="Home Page">
+  <img src="./assets/images/responsive.jpg" alt="Home Page">
 </div>
 
  Ahoy there!, Sailing School,Is happy to introduce the Trivia Game for boat License for Recreation Purpose If you've ever dreamt of navigating the open seas, feeling the wind in your sails, and harnessing the power of the ocean, you're in the right place. Sailing School is your go-to resource for mastering the basics of sailing. In This README you will find all the process that we use to build our Tool to help you master the information to pass in the Test. I am a sailor since 1999  and i have struggle to get all the information today it is possible to have in the tip of your fingers.My Idea is to bring information to people that are interest in sailing.
@@ -210,7 +210,7 @@ The School fills these needs by:
 # Testing
 
 <div align="center">
-  <img src="./assets/images/w3validator.JPG" alt="Home Page">
+  <img src="./assets/images/w3validator.jpg" alt="Home Page">
 </div>
 
 ## Methods
@@ -227,7 +227,7 @@ The School fills these needs by:
 ## General Testing
 
 <div align="center">
-  <img src="./assets/images/metric.JPG" alt="Home Page">
+  <img src="./assets/images/metric.jpg" alt="Home Page">
 </div>
 ### Mobile Testing
 
@@ -237,7 +237,7 @@ The School fills these needs by:
 ### Desktop Testing
 
 <div align="center">
-  <img src="./assets/images/metric_desk.JPG" alt="Home Page">
+  <img src="./assets/images/metric_desk.jpg" alt="Home Page">
 </div>
 
 - The site was marginally tested on other browsers, such as Firefox.

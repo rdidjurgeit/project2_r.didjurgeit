@@ -1,10 +1,10 @@
 /* --------- Global style */
 
-body{
+body {
     font-family: "Anton", sans-serif;
-    letter-spacing:  2px;
+    letter-spacing: 2px;
     text-align: center;
-    margin: 0;  
+    margin: 0;
     position: absolute;
     top: 0;
     width: 100%;
@@ -21,27 +21,30 @@ figure {
     margin-inline-end: auto;
 }
 
-figure figcaption{
+figure figcaption {
     font-size: 3.2em;
 }
 
-nav{
-   position:absolute ;
+nav {
+    position: absolute;
     top: 78px;
     right: 5px;
-  }
+}
 
-  nav button{
-    background-color: #355a81; 
-    color:white;
+nav .button {
+    display: inline-block;
+    background-color: #355a81;
+    color: white;
     border: none;
-    border-radius:  0 0 0.5rem 0.5rem; 
-    font-size:1em;
-  }
-  nav a{
-    text-decoration:none;
-    color: inherit; 
-   } 
+    border-radius: 0 0 0.5rem 0.5rem;
+    font-size: 1em;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+nav .button:hover {
+    background-color: #5087c1;
+}
 
 /* --------- Game layout */
 
@@ -54,49 +57,48 @@ section {
     margin-top: 15px;
     width: 800px;
     max-width: 90%;
-    
 }
 
-.btn-grid{
+.btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 10px;
     margin: 20px 0;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #5087c1;
 }
 
-.btn{
- padding: 1.5rem;
- background-color: #70b5ff; 
- color: white;
- border: none;
- border-radius:  0 0 0.5rem 0.5rem;  
-}
-
-.move-btn{
-padding: 1.5rem;
- background-color: #024690; 
- color: white;
- border: none;
- border-radius:  0 0 0.5rem 0.5rem;  
-}
-
-.start-btn{
+.btn {
     padding: 1.5rem;
-     background-color: #024690; 
-     color: white;
-     border: none;
-     border-radius:  0 0 0.5rem 0.5rem;  
-    }
+    background-color: #70b5ff;
+    color: white;
+    border: none;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.move-btn {
+    padding: 1.5rem;
+    background-color: #024690;
+    color: white;
+    border: none;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.start-btn {
+    padding: 1.5rem;
+    background-color: #024690;
+    color: white;
+    border: none;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
 
 span {
     padding: 0 15px;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
@@ -113,4 +115,35 @@ span {
 .scores {
     display: inline-block;
     padding: 25px;
+}
+
+/* Timer Section */
+
+#timer-container {
+    font-size: 1.5rem;
+    color: #355a81;
+    margin-top: 10px;
+}
+
+/* Feedback Section */
+
+#feedback-container {
+    font-size: 1.2rem;
+    color: #355a81;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    nav {
+        position: relative;
+        top: auto;
+        right: auto;
+        text-align: center;
+    }
+
+    nav .button {
+        display: block;
+        margin: 5px auto;
+    }
 }
