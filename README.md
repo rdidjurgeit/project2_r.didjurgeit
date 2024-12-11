@@ -11,94 +11,40 @@
 
 ## Table of Contents
 
-1. <details open>
-    <summary><a href="#ux">UX</a></summary>
-
-    <ul>
-    <li><details>
-    <summary><a href="#Concept">Concept</a></summary>
-    </details></li>
-
-    <li><details>
-    <summary><a href="#goals">Goals</a></summary>
-
+- [UX](#ux)
+    - [Concept](#concept)
+  - [Goals](#goals)
     - [Visitor Goals](#visitor-goals)
-    - [Business Goals](#business-goals)
-    - [User Stories](#user-stories)
-    </details></li>
-
-    <li><details>
-    <summary><a href="#visual-design">Visual Design</a></summary>
+    - [User goals are](#user-goals-are)
+  - [Visual Design](#visual-design)
     - [Fonts](#fonts)
     - [Icons](#icons)
     - [Colors](#colors)
     - [Images](#images)
-    </details></li>
-    </ul>
-
-</details>
-2. <details open>
-    <summary><a href="#features">Features</a></summary>
-</details>
-
-3. <details open>
-    <summary><a href="#technologies-used">Technologies Used</a></summary>
-
-    - [Languages](#languages)
-    - [Libraries](#libraries)
-    - [Platforms](#platforms)
-    - [Other Tools](#other-tools)
-
-</details>
-
-4. <details open>
-    <summary><a href="#testing">Testing</a></summary>
-
-    <ul>
-    <li><details>
-    <summary><a href="#methods">Methods</a></summary>
-
+- [Features](#features)
+  - [Page Elements](#page-elements)
+    - [Index Page](#index-page)
+  - [Future Ideas](#future-ideas)
+    - [Content](#content)
+- [Technologies Used](#technologies-used)
+  - [Languages](#languages)
+  - [Libraries](#libraries)
+  - [Platforms](#platforms)
+  - [Other Tools](#other-tools)
+- [Testing](#testing)
+  - [Methods](#methods)
     - [Validation](#validation)
-    - [General Testing](#general-testing)
+  - [General Testing](#general-testing)
     - [Mobile Testing](#mobile-testing)
     - [Desktop Testing](#desktop-testing)
-    </details></li>
-
-    <li><details>
-    <summary><a href="#bugs">Bugs</a></summary>
-
+  - [Bugs](#bugs)
     - [Known Bugs](#known-bugs)
-    </details></li>
-    </ul>
-
-</details>
-
-5. <details open>
-    <summary><a href="#deployment">Deployment</a></summary>
-
-    <ul>
-    <li><details>
-    <summary><a href="#local-deployment">Local Deployment</a></summary>
-
+- [Deployment](#deployment)
+  - [Local Deployment](#local-deployment)
     - [Local Preparation](#local-preparation)
-    </details></li>
-
-    <li><details>
-    <summary><a href="#github-deployment">Github Deployment</a></summary>
-
-    - [Github Preparation](#github-preparation)
-    </details></li>
-    </ul>
-
-</details>
-
-6. <details open>
-    <summary><a href="#credit-and-contact">Credit and Contact</a></summary>
-
-    - [Content](#content)
+  - [Credits and Contact](#credits-and-contact)
+    - [Content](#content-1)
     - [Contact](#contact)
-
-</details>
 
 ----
 
@@ -127,6 +73,15 @@ The concent is a quiz game to test knowledge about the License for Recreation Bo
 
 ## Goals
 
+The goal of this project is to create an interactive and engaging front-end web application designed to educate and test users' knowledge about boating safety and regulations. This application provides:
+
+- A user-friendly interface that ensures accessibility and responsiveness across devices.
+- Interactive elements, such as quizzes, feedback, and hints, to make learning more effective and enjoyable.
+- A focus on improving users’ understanding of critical boating guidelines through a structured and intuitive quiz format.
+- Seamless navigation and an aesthetically pleasing design to enhance the overall user experience.
+
+By achieving these goals, the project aims to promote awareness of boating safety in an accessible and engaging way for all users.
+
 ### Visitor Goals
 
 The target audience :
@@ -151,6 +106,16 @@ The School fills these needs by:
 
 ## Visual Design
 
+The visual design of this project focuses on creating a clean, intuitive, and visually appealing interface that enhances user engagement. Key elements of the visual design include:
+
+- Consistent Color Palette: A harmonious selection of colors to evoke a sense of calm and professionalism, with highlights to guide user attention.
+- Responsive Layout: Designed to adapt seamlessly to various screen sizes, ensuring accessibility and usability across all devices.
+- Clear Typography: Readable and well-structured text that maintains hierarchy and clarity for ease of navigation and comprehension.
+- Interactive Elements: Visually distinct buttons, feedback areas, and hints to encourage user interaction and provide real-time engagement.
+- Minimalist Approach: A focus on simplicity to avoid unnecessary distractions, ensuring the content remains the central focus.
+
+This design ensures a balance between aesthetics and functionality, creating an engaging and enjoyable user experience.
+
 ### Fonts
 
 - The primary font, [Anton](https://fonts.google.com/selection?query=Anton) was chosen because IT is a font friendly for dyslexia , making it very easily readable throughout the questions.
@@ -173,13 +138,33 @@ The School fills these needs by:
 
 # Features
 
+This application offers a variety of interactive features designed to provide an engaging and educational experience for users:
+
+- Interactive Quiz: A dynamically generated quiz with randomized questions to test boating knowledge.
+- Hint System: A "Get Hint" button to guide users toward the correct answer without revealing it outright.
+- Feedback Mechanism: Immediate feedback for correct and incorrect answers, helping users learn as they go.
+- Timer: A countdown timer adds a sense of urgency and challenges users to answer promptly.
+- Score Tracking: Displays the number of correct and incorrect answers in real-time, keeping users informed about their performance.
+- Review Section: A review page for incorrect answers, allowing users to revisit and learn from their mistakes.
+- Restart Option: The ability to restart the quiz anytime to reinforce learning or improve scores.
+- Responsive Design: Ensures the application is accessible and functional across all devices, from desktops to mobile phones.
+
 ## Page Elements
+
+The application is structured into several core elements to enhance usability and functionality:
+
+- Header:Contains the application title, logo, and navigation links for easy access to other resources.
+- Main Content:Welcome Section, Quiz Section with Hint Button.
+- Feedback Section: Give feedback of score
+- Review Section: Shows ate the end the wrong Questions.
 
 ### Index Page
 
 - Delivery information from The rules.The design philosophy revolves around keeping the learning experience focused and immersive. No flashy elements, just you and the knowledge of boating against a backdrop of serene blues. The Correct response will be in Green and Next Button wil show up.
 
-## Feature Ideas
+## Future Ideas
+
+- Is to implement in a website maybe in the project 1 with more video and interactive images.
 
 ### Content
 
@@ -189,17 +174,20 @@ The School fills these needs by:
 
 # Technologies Used
 
+- Because is a Small project with small javaScrips there was no need off more advance tool our an API. It was limited at one HTML, Style and JS files.
+
 ## Languages
 
 - [HTML](https://html.spec.whatwg.org/)
   - Page markup.
 - [CSS](https://www.w3.org/Style/CSS/specs.en.html)
   - Styling.
--
 - [Javascript](https://standardjs.com/)
   - Running function for interactive.
 
 ## Libraries
+
+-For be able to be a UserFriendly i limit my self for a Font Style and not many visual pollution.
 
     * Font Styles.
 
@@ -225,11 +213,21 @@ The School fills these needs by:
 
 # Testing
 
+  The application underwent rigorous testing to ensure high-quality performance, accessibility, and compliance with web standards. Key tools and methodologies used for testing include:
+
+- HTML Validation: It was use the W3C HTML Validator to ensure the markup adheres to web standards.
+- CSS Validation: The W3C CSS Validator was use for the CSS to confirm proper syntax
+- For performance and Responsive Dimensions was use the devTool from Google Chrome and Lighthouse.
+
+---
+
+## Methods
+
+For Validation process you will need to go in each link from W3C and put you code our you page so it can start the process. if there is no mistakes it will have a confirmation image: Common Error you can find is regarding using section and not using header.
+
 <div align="center">
   <img src="./assets/images/w3validator.webp" alt="Home Page">
 </div>
-
-## Methods
 
 ### Validation
 
@@ -241,13 +239,18 @@ The School fills these needs by:
 
 ## General Testing
 
+- General Testing in this case is use different browser like Firefox and Google Chrome as Opera for Apple. 
+
+### Mobile Testing
+
 <div align="center">
   <img src="./assets/images/metric.webp" alt="Home Page">
 </div>
-### Mobile Testing
 
 - I tested the site personally in my mobile, going through all the pages.
 - Chrome was utilized to inspect the site in mobile format, going through the pages and functions.
+
+----
 
 ### Desktop Testing
 
@@ -267,15 +270,28 @@ The School fills these needs by:
 
 # Deployment
 
+The application has been successfully deployed to a cloud-based hosting platform, ensuring that it is accessible to users globally. Below are the details of the deployment process:
+
 ## Local Deployment
 
+For Local Deployment you can navigate in the repository until you find a green botton on the right side:
+
+```
+<>Code
+```
+
+There you have the option to Download in Zip our Clone using the respective [URL](https://github.com/rdidjurgeit/project2_rdidjurgeit.git)
+
 ### Local Preparation
+
+- For the preparation you will need a source code editor, in my case I use VSCode since is a free tool from Microsoft. with a big library off extension.
 
 **Requirements:**
 
 - An IDE of your choice, such as [Visual Studio Code](https://code.visualstudio.com/)
-- [Git](https://git-scm.com/)
+- This IDE will need a [Git](https://git-scm.com/)
 - You will have to set up a connection with an email
+- Live Server Extencion so you can see the Code every time you safe our interact.
 
 ## Credits and Contact
 
